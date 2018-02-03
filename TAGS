@@ -1,0 +1,71 @@
+
+./Setup.hs,15
+main main1,2
+
+./app/Main.hs,52
+module Main Main0,1
+main main4,5
+main main5,6
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
+
+./src/Data/Plist/Parser.hs,1599
+module Data.Plist.Parser Data.Plist.Parser3,4
+import import9,10
+type Dict Dict33,34
+data ParseMode ParseMode35,36
+data ParseMode = ParsePListParsePList35,36
+               | ParsingArray ParsingArray36,37
+               | ParsingDict ParsingDict37,38
+               | ParsingKey ParsingKey38,39
+               | ParsingValueFor ParsingValueFor39,40
+               | ParsingAtom ParsingAtom40,41
+dropDOCTYPE dropDOCTYPE43,44
+dropDOCTYPE dropDOCTYPE44,45
+instance instance50,51
+data PState PState65,66
+data PState = PState PState65,66
+data PState = PState { _parseModes _parseModes65,66
+                     , _parseResult _parseResult66,67
+integerParser, realParser, stringParser, dateParser, dataParser dataParser71,72
+integerParser, realParser, stringParser, dateParser,dateParser71,72
+integerParser, realParser, stringParser,stringParser71,72
+integerParser, realParser,realParser71,72
+integerParser,integerParser71,72
+integerParser integerParser72,73
+realParser realParser73,74
+stringParser stringParser74,75
+dateParser dateParser75,76
+dataParser dataParser76,77
+push push83,84
+push push84,85
+parsePList parsePList86,87
+parsePList parsePList87,88
+expectingValue expectingValue101,102
+expectingValue expectingValue102,103
+onTagOpen onTagOpen110,111
+onTagOpen onTagOpen111,112
+pop pop124,125
+pop pop125,126
+finishWithValue finishWithValue127,128
+finishWithValue finishWithValue128,129
+onText onText142,143
+onText onText143,144
+onTagClose onTagClose148,149
+onTagClose onTagClose149,150
+  | tag `elem`elem162,163
+
+./src/Data/Plist/Types.hs,347
+module Data.Plist.Types Data.Plist.Types1,2
+data PList PList10,11
+data PList = String String10,11
+           | Integer Integer11,12
+           | Real Real12,13
+           | Bool Bool13,14
+           | Date Date14,15
+           | Data Data15,16
+           | Array Array16,17
+           | Dict Dict17,18
+instance instance20,21
